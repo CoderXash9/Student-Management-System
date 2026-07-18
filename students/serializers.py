@@ -1,11 +1,15 @@
-from rest_framework import serializers
-from .models import Student, Course, Enrollment
+from rest_framework import (
+    serializers,
+)  # importing django REST framework's serializer tools
+from .models import Student, Course, Enrollment  # imports my models
 
 
-class StudentSerializer(serializers.ModelSerializer):
-    class Meta:
-        model = Student
-        fields = "__all__"
+class StudentSerializer(
+    serializers.ModelSerializer
+):  # creating serializer for the Student model
+    class Meta:  # the serializer belongs to this model
+        model = Student  # connects to my Student table
+        fields = "__all__"  # include every field of Student
 
 
 class CourseSerializer(serializers.ModelSerializer):

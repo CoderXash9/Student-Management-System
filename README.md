@@ -157,18 +157,6 @@ python manage.py runserver
 http://127.0.0.1:8000/api/docs/
 ```
 
----
-
-# 📸 Screenshots
-
-Add screenshots of:
-
-- Django Admin Panel
-- Swagger Documentation
-- Student API
-- JWT Token Endpoint
-
----
 
 # 🎯 Future Improvements
 

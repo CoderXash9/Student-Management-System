@@ -9,7 +9,10 @@ from .serializers import (
 from rest_framework.permissions import IsAuthenticated
 from rest_framework.authentication import SessionAuthentication
 
+from drf_spectacular.utils import extend_schema
 
+
+@extend_schema(tags=["Students"])
 class StudentViewset(
     viewsets.ModelViewSet
 ):  # automattically created all CRUD operations
@@ -29,11 +32,13 @@ class StudentViewset(
     permission_classes = [IsAuthenticated]
 
 
+@extend_schema(tags=["Courses"])
 class CourseViewset(viewsets.ModelViewSet):
     queryset = Course.objects.all()
     serializer_class = CourseSerializer
 
 
+@extend_schema(tags=["Enrollments"])
 class EnrollmentViewset(viewsets.ModelViewSet):
     queryset = Enrollment.objects.all()
     serializer_class = EnrollmentSerializer

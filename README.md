@@ -1,308 +1,205 @@
 <div align="center">
 
-# ⚡ Student Management System ⚡
+# 🎓 Student Management System API
 
-### 🚀 A Modern Full-Stack Student Management Platform built with Django
+### 🚀 A Professional REST API built with Django REST Framework
 
-<img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=28&pause=1000&color=00F7FF&center=true&vCenter=true&width=900&lines=Welcome+to+Student+Management+System;Built+with+Django+%7C+Bootstrap+5;Fast+%7C+Secure+%7C+Responsive;Cyberpunk+Inspired+UI+⚡" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=00F5FF&center=true&vCenter=true&width=600&lines=Student+Management+System;Built+with+Django+REST+Framework;JWT+Authentication;RESTful+API;Backend+Development" />
 
-<br>
+---
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![Bootstrap](https://img.shields.io/badge/Bootstrap_5-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
-
-<br>
-
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github)
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode)
-![Render](https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=black)
-
-<br>
-
-![License](https://img.shields.io/github/license/CoderXash9/Student-Management-System?style=for-the-badge)
-![Repo Size](https://img.shields.io/github/repo-size/CoderXash9/Student-Management-System?style=for-the-badge)
-![Stars](https://img.shields.io/github/stars/CoderXash9/Student-Management-System?style=for-the-badge)
-![Forks](https://img.shields.io/github/forks/CoderXash9/Student-Management-System?style=for-the-badge)
-![Issues](https://img.shields.io/github/issues/CoderXash9/Student-Management-System?style=for-the-badge)
+![Python](https://img.shields.io/badge/Python-3.11-blue?style=for-the-badge&logo=python)
+![Django](https://img.shields.io/badge/Django-5.2-darkgreen?style=for-the-badge&logo=django)
+![Django REST Framework](https://img.shields.io/badge/DRF-REST_API-red?style=for-the-badge)
+![SQLite](https://img.shields.io/badge/SQLite-Database-blue?style=for-the-badge&logo=sqlite)
+![JWT](https://img.shields.io/badge/JWT-Authentication-orange?style=for-the-badge)
+![Swagger](https://img.shields.io/badge/Swagger-API_Docs-green?style=for-the-badge&logo=swagger)
+![Git](https://img.shields.io/badge/Git-Version_Control-orange?style=for-the-badge&logo=git)
+![GitHub](https://img.shields.io/badge/GitHub-Repository-black?style=for-the-badge&logo=github)
+![VS Code](https://img.shields.io/badge/VS_Code-Editor-blue?style=for-the-badge&logo=visualstudiocode)
 
 </div>
 
 ---
 
-# 🌌 Overview
+# 📖 About
 
-> **Student Management System** is a powerful full-stack web application designed to simplify student record management through an intuitive dashboard and secure authentication system.
+The **Student Management System API** is a backend project built using **Django REST Framework**.
 
-Inspired by modern cyberpunk aesthetics, the project focuses on speed, security, scalability, and clean UI while following Django best practices.
+It provides a secure and scalable REST API for managing:
+
+- 👨‍🎓 Students
+- 📚 Courses
+- 📝 Enrollments
+
+The project demonstrates real-world backend development practices including authentication, validation, filtering, pagination, and API documentation.
 
 ---
 
 # ✨ Features
 
-## 👨‍🎓 Student Management
+✅ Complete CRUD Operations
 
-- ➕ Add Students
-- ✏️ Edit Student Details
-- ❌ Delete Records
-- 🔍 Search Students
-- 📋 View Student List
+✅ JWT Authentication
 
----
+✅ Protected API Endpoints
 
-## 🔐 Authentication
+✅ Search Functionality
 
-- Secure Login
-- Logout
-- Protected Routes
-- Session Management
+✅ Ordering
 
----
+✅ Pagination
 
-## 🎨 User Interface
+✅ Data Validation
 
-- Responsive Bootstrap 5 Design
-- Mobile Friendly
-- Clean Dashboard
-- Modern Components
-- Fast Navigation
+✅ Filtering
+
+✅ Swagger API Documentation
+
+✅ Django Admin Panel
+
+✅ RESTful Architecture
 
 ---
 
-## ⚙ Backend
-
-- Django MVC Architecture
-- ORM Database Operations
-- Secure Form Handling
-- URL Routing
-- Template Engine
-- Static File Management
-
----
-
-# ⚡ Tech Stack
+# 🛠 Tech Stack
 
 | Technology | Usage |
 |------------|-------|
-| 🐍 Django | Backend Framework |
-| 🌐 HTML5 | Structure |
-| 🎨 CSS3 | Styling |
-| 💜 Bootstrap 5 | Responsive UI |
-| 🗄 SQLite | Database |
-| 🛠 Git | Version Control |
-| ☁ GitHub | Source Code Management |
-| 💻 VS Code | Development |
-| 🚀 Render | Deployment |
+| Python | Programming Language |
+| Django | Backend Framework |
+| Django REST Framework | REST APIs |
+| SQLite | Database |
+| JWT | Authentication |
+| drf-spectacular | Swagger Documentation |
+| Git & GitHub | Version Control |
 
 ---
 
-# 🧠 Project Architecture
+# 📂 Project Structure
 
-```text
+```
 Student-Management-System
 │
+├── student_management/
 ├── students/
-├── templates/
-├── static/
-│   ├── css/
-│   ├── js/
-│   └── images/
+│   ├── models.py
+│   ├── serializers.py
+│   ├── views.py
+│   ├── urls.py
+│   └── admin.py
 │
 ├── db.sqlite3
 ├── manage.py
-├── requirements.txt
 └── README.md
 ```
 
 ---
 
-# 🚀 Getting Started
+# 🚀 API Endpoints
 
-## Clone Repository
+| Endpoint | Description |
+|----------|-------------|
+| `/api/students/` | Student CRUD |
+| `/api/courses/` | Course CRUD |
+| `/api/enrollments/` | Enrollment CRUD |
+| `/api/token/` | Generate JWT Token |
+| `/api/token/refresh/` | Refresh Token |
+| `/api/docs/` | Swagger Documentation |
+
+---
+
+# 🔐 Authentication
+
+This project uses **JWT (JSON Web Token)** authentication.
+
+Protected endpoints require an **Access Token** generated after login.
+
+---
+
+# 📑 API Features
+
+- 🔍 Search
+- 📄 Pagination
+- 🔃 Ordering
+- 🎯 Filtering
+- ✅ Validation
+- 🔐 Authentication
+- 📚 Swagger Documentation
+
+---
+
+# ⚡ Installation
 
 ```bash
-git clone https://github.com/CoderXash9/Student-Management-System.git
-```
+git clone https://github.com/your-username/Student-Management-System.git
 
-```bash
 cd Student-Management-System
-```
 
----
-
-## Create Virtual Environment
-
-### Windows
-
-```bash
 python -m venv venv
-```
 
-```bash
 venv\Scripts\activate
-```
 
-### Linux / macOS
-
-```bash
-python3 -m venv venv
-```
-
-```bash
-source venv/bin/activate
-```
-
----
-
-## Install Dependencies
-
-```bash
 pip install -r requirements.txt
-```
 
----
-
-## Apply Migrations
-
-```bash
 python manage.py migrate
-```
 
----
-
-## Create Superuser
-
-```bash
 python manage.py createsuperuser
-```
 
----
-
-## Run Server
-
-```bash
 python manage.py runserver
 ```
 
-Visit
-
-```
-http://127.0.0.1:8000/
-```
-
 ---
 
-# 📷 Screenshots
-
-> Replace these with your own project screenshots.
+# 🌐 API Documentation
 
 ```
-📸 Dashboard
-
-📸 Login Page
-
-📸 Student List
-
-📸 Add Student
-
-📸 Search Student
+http://127.0.0.1:8000/api/docs/
 ```
 
 ---
 
-# 🚀 Deployment
+# 📸 Screenshots
 
-The project is deployed using **Render**.
+Add screenshots of:
 
-Deployment includes:
-
-- Production Ready Django
-- Gunicorn
-- Static Files Configuration
-- Environment Variables
-- Secure Hosting
+- Django Admin Panel
+- Swagger Documentation
+- Student API
+- JWT Token Endpoint
 
 ---
 
-# 🔮 Future Improvements
+# 🎯 Future Improvements
 
-- 📊 Analytics Dashboard
-- 📈 Charts & Graphs
-- 📧 Email Notifications
-- 📤 Excel/PDF Export
-- 🌙 Dark Mode
-- 👨‍🏫 Faculty Module
-- 📚 Attendance Management
-- 💰 Fee Management
-- 🔔 Notifications
-- REST API Integration
-
----
-
-## 📊 GitHub Stats
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=CoderXash9&show_icons=true&theme=tokyonight)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=CoderXash9&layout=compact&theme=tokyonight)
-
-![GitHub Streak](https://streak-stats.demolab.com?user=CoderXash9&theme=tokyonight)
-
-# 🤝 Contributing
-
-Contributions are always welcome!
-
-```bash
-Fork 🍴
-
-Clone 📥
-
-Create Branch 🌿
-
-Commit Changes 💾
-
-Push 🚀
-
-Create Pull Request 🎉
-```
-
----
-
-# ⭐ Support
-
-If you found this project useful,
-
-⭐ Star this repository
-
-🍴 Fork it
-
-🐛 Report Issues
-
-💡 Suggest Features
+- PostgreSQL Support
+- Docker Integration
+- CI/CD Pipeline
+- Role-Based Authentication
+- Email Verification
+- Password Reset
+- Deployment on Render
 
 ---
 
 # 👨‍💻 Developer
 
-<div align="center">
+**Ashwini Purohit**
 
-## **Ashwini Purohit**
+Backend Developer • Python Enthusiast • Django Developer
 
-Full Stack Developer • Python Developer • Django Enthusiast
-
-GitHub
-
+GitHub:
 https://github.com/CoderXash9
+
+LinkedIn:
+(Add your LinkedIn URL)
 
 ---
 
-![Visitors](https://komarev.com/ghpvc/?username=CoderXash9&style=for-the-badge&color=blueviolet)
+<div align="center">
 
-### ⚡ "Code. Build. Learn. Repeat."
+### ⭐ If you found this project useful, consider giving it a Star!
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00F7FF,100:8A2BE2&height=120&section=footer"/>
+🚀 Happy Coding 🚀
 
 </div>

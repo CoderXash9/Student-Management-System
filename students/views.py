@@ -6,6 +6,8 @@ from .serializers import (
     CourseSerializer,
     EnrollmentSerializer,
 )
+from rest_framework.permissions import IsAuthenticated
+from rest_framework.authentication import SessionAuthentication
 
 
 class StudentViewset(
@@ -22,6 +24,9 @@ class StudentViewset(
     ordering_fields = ["first_name", "created_at"]
 
     filterset_fields = ["gender"]
+
+    authentication_classes = [SessionAuthentication]
+    permission_classes = [IsAuthenticated]
 
 
 class CourseViewset(viewsets.ModelViewSet):

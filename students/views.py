@@ -7,7 +7,9 @@ from .serializers import (
 )
 
 
-class StudentViewset(viewsets.ModelViewSet):
+class StudentViewset(
+    viewsets.ModelViewSet
+):  # automattically created all CRUD operations
     queryset = Student.objects.all()
     serializer_class = StudentSerializer
 

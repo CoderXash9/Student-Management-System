@@ -13,9 +13,9 @@ class StudentSerializer(
 
     def validate_phone(self, value):
         if len(value) != 10:
-            raise
-
-        serializers.ValidationError("Phone number must contain 10 digits.")
+            raise serializers.ValidationError(
+                "Phone number must contain exactly 10 digits."
+            )
         return value
 
 

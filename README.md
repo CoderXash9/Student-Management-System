@@ -22,19 +22,7 @@
 
 ---
 
-# 📸 Project Screenshots
 
-## Admin Panel
-
-![Admin](screenshots/admin.png)
-
-## Students Page
-
-![Students](screenshots/students.png)
-
-## Swagger API
-
-![Swagger](Screenshot 2026-07-19 113952.png)
 
 
 

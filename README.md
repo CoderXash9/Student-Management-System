@@ -34,11 +34,9 @@
 
 ## Swagger API
 
-![Swagger](screenshots/swagger.png)
+![Swagger](Screenshot 2026-07-19 113952.png)
 
-## Swagger Documentation
 
-![Swagger 2](screenshots/swagger1.png)
 
 
 # 📖 About

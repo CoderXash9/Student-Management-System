@@ -22,6 +22,25 @@
 
 ---
 
+# 📸 Project Screenshots
+
+## Admin Panel
+
+![Admin](screenshots/admin.png)
+
+## Students Page
+
+![Students](screenshots/students.png)
+
+## Swagger API
+
+![Swagger](screenshots/swagger.png)
+
+## Swagger Documentation
+
+![Swagger 2](screenshots/swagger1.png)
+
+
 # 📖 About
 
 The **Student Management System API** is a backend project built using **Django REST Framework**.

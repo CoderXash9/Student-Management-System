@@ -122,6 +122,15 @@ Protected endpoints require an **Access Token** generated after login.
 
 ---
 
+# 🌐 Live Demo
+
+🔗 https://student-management-system-t892.onrender.com
+
+## API Documentation
+
+🔗 https://student-management-system-t892.onrender.com/api/docs/
+
+
 # 📑 API Features
 
 - 🔍 Search
